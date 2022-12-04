@@ -1,9 +1,15 @@
 import React from 'react';
-import Header from './components/Header';
+import './App.css'
+import SideBar from './components/Sidebar'
 
 function App() {
   return (
-  <Header/>
+    <div className='app'>
+    <SideBar/>
+    <div>
+       hlo this is main div in react
+    </div>
+    </div>
   );
 }
 
